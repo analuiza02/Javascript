@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <script type="text/javascript">
+        var b = (5 > 2)
+        var v = (2 > 5)
+        document.write("b = "+ b +" (porque 5 > 2 é uma afirmacao verdadeira)"+"<br/>")
+        document.write("b = "+ v +" (porque 2 > 5 é uma afirmacao falsa)"+"<br/>")
+        document.write("b = "+ !b +" (porque a negacao de true é false)"+"<br/>")
+        document.write("b = "+ !b +" (porque a negacao de false é true)"+"<br/>")
+        var c = b && v
+        document.write("b = "+ b +" (porque a operacao: true && false da false)"+"<br/>")
+        c = b || v
+        document.write("b = "+ b +" (porque a operacao: true || false da true)"+"<br/>")
+        b = (3 < 10 && 2 > 1) || !c
+        document.write("b = "+ b +" (porque a operacao anterior da true)"+"<br/>")
+        </script>
+    </body>
+</html>
